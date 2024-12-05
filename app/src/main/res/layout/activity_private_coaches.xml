@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/telechargement"
+    tools:context=".Meals">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="248dp"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:padding="28dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="FitnessFtw ."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="@string/live_healthy_stay_strong"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arnold Schwarzenegger"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="298dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/arnold" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="-125dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingredients"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Age : 76 \nHeight : 1.88\n
+Weight : 107 kg\n7 times mr Olympia\nProgram : The Golden Six\nPrice : 200$/hr "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-130dp"
+                android:text="Quotes :"
+                android:textColor="@color/white"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength."/>
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chris Bumstead "
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="264dp"
+                android:src="@drawable/chris" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age : 29 \nHeight : 1.85\n
+Weight : 104 kg\n5 times mr Olympia\nProgram : Push Pull Legs\nPrice : 150$/hr "
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-125dp"
+                android:text="Quotes:"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="When you're working hard and finding growth in life – that is where we find passion and fulfilment."/>
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:text="Hamdi Rahali (el 3ou9) "
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="264dp"
+                android:layout_marginLeft="70dp"
+                android:src="@drawable/hamdi" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" Age : 29 \nHeight : 1.75\n
+Weight : 101 kg\n0 times mr Olympia\nProgram : touskié \nPrice : 1$/hr" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-130dp"
+                android:text="Quotes :"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="LMCHOUMA"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

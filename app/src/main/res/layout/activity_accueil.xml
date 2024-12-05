@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/telechargement"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="FitnessFtw ."
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="@string/live_healthy_stay_strong"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mnr"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="150dp"
+        android:textSize="20dp"
+        android:layout_height="150dp"
+        android:alpha="0.80"
+        android:backgroundTint="@color/orange"
+        android:text="Meals and Recipes"
+        android:textStyle="bold"
+        app:cornerRadius="32dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="220dp"
+        android:textSize="20dp"
+        android:backgroundTint="@color/orange"
+        android:alpha="0.80"
+        android:textStyle="bold"
+        android:text="Closest Gyms"
+        app:cornerRadius="32dp" />
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/pc"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:alpha="0.80"
+        android:backgroundTint="@color/orange"
+        android:text="Private Coaches"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:cornerRadius="32dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cc"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="220dp"
+        android:alpha="0.80"
+        android:textSize="20dp"
+        android:backgroundTint="@color/orange"
+        android:text="Calorie Calculator"
+        android:textStyle="bold"
+        app:cornerRadius="32dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/m"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@color/orange"
+        android:alpha="0.80"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Motivation"
+        app:cornerRadius="32dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/exit"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="220dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:text="Exit"
+        android:alpha="0.80"
+        app:cornerRadius="32dp" />
+
+</RelativeLayout>

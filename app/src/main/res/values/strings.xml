@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fitness FTW</string>
+    <string name="fitnessftw">FitnessFtw.</string>
+    <string name="fin">.</string>
+    <string name="live_healthy_stay_strong">Live healthy. Stay strong!</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="google_maps_key" translatable="false">AIzaSyCdN2dgt272dXnL2S0-7Eo5KulTJw2B-bI</string>
+
+</resources>

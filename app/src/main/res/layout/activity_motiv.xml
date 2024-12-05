@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/telechargement"
+    tools:context=".Meals">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="248dp"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:padding="28dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="FitnessFtw ."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="@string/live_healthy_stay_strong"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="20 GYM QUOTES TO KEEP YOU MOTIVATED DURING WORKOUTS"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:fontFamily="times new roman"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="“I hated every minute of training, but I said, ‘Don’t quit. Suffer now and live the rest of your life as a champion.” – Muhammad Ali\n
+“We are what we repeatedly do. Excellence then is not an act but a habit.” –Aristotele\n
+“The body achieves what the mind believes.” – Napoleon Hill\n
+“The hard days are the best because that’s when champions are made, so if you push through, you can push through anything.” – Dana Vollmer\n
+“If you don’t find the time, if you don’t do the work, you don’t get the results.” – Arnold Schwarzenegger\n
+“Dead last finish is greater than did not finish, which trumps did not start.” — Unknown\n
+“Push harder than yesterday if you want a different tomorrow.” – Vincent Williams Sr.\n
+“The real workout starts when you want to stop.” – Ronnie Coleman\n
+“Take care of your body. It’s the only place you have to live.” — Jim Rohn\n
+“I’ve failed over and over again in my life and that is why I succeed.” – Michael Jordan\n
+“Once you are exercising regularly, the hardest thing is to stop it.” – Erin Gray\n
+“The secret of getting ahead is getting started.” — Mark Twain\n
+“Exercise should be regarded as tribute to the heart” – Gene Tunney\n
+“You’re going to have to let it hurt. Let it suck. The harder you work, the better you will look. Your appearance isn’t parallel to how heavy you lift, it’s parallel to how hard you work.” –Joe Mangianello\n
+“Most people fail, not because of lack of desire, but, because of lack of commitment.” –Vince Lombardi\n
+“You miss one hundred percent of the shots you don’t take.” – Wayne Gretzky\n
+“If something stands between you and your success, move it. Never be denied.” – Dwayne “The Rock” Johnson\n
+“All progress takes place outside the comfort zone.”– Michael John Bobak\n
+“Just believe in yourself. Even if you don’t, just pretend that you do and at some point, you will.” – Venus Williams"
+                android:textColor="@color/white"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

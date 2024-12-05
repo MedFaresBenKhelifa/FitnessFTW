@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/telechargement"
+    tools:context=".Meals">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="248dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="28dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="FitnessFtw ."
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="@string/live_healthy_stay_strong"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spicy Chicken With Couscous"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="298dp"
+                android:src="@drawable/spicy"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="-125dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingredients"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="-90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="1 tbsp. curry paste\n1 tbsp. mango chutney\n½ tsp. turmeric\nSalt to taste\n50ml olive oil\n
+4 chicken breast\n300g couscous\n350ml vegetable stock "
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-130dp"
+                android:text="Method :"
+                android:textColor="@color/white"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="1) Firstly, make a marinade for your chicken by adding the curry paste, chutney, turmeric, salt and olive oil to a bowl and mixing well.\n
+2) Then, cut each chicken breast in half and add to the marinade, stirring until well covered, and then leave aside for at least 20 minutes — ideally in the fridge overnight.\n
+3) Next, heat a grill pan over medium heat and lay out your chicken pieces. Grill for 5-6 minutes on each side, or until golden and slightly charred.\n
+4) Meanwhile, place the couscous in a big bowl and carefully pour in the boiling vegetable stock. Cover the bowl with a lid and leave to soak for around 5 minutes, then fluff your couscous with a fork and add any extras you want — pomegranate seeds are great for a flash of colour and burst of flavour.\n
+5) Finally, divide your couscous into 4 containers, top with two pieces of marinated chicken and finish with a sprinkle of coriander.\n
+"/>
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Easy Pesto Chicken and Veg "
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="264dp"
+                android:src="@drawable/chicken" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="-125dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingredients"
+
+                android:textSize="20dp"
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="-90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 tbsp. olive oil\n4 chicken breast (cubed)\n½ tsp. salt\n½ tsp. pepper\n1 red onion (chopped)\n
+1 courgette (sliced)\n400 g green beans\n100 g reduced fat pesto"
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-125dp"
+                android:text="Method :"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="1) Heat the olive oil in a large frying pan and then add the cubed chicken. Season with salt and pepper, then cook for 5-7 minutes until the chicken is completely cooked through and turned from pink to white.  \n
+2) Add the chopped veg, mix to combine, and then cook for a few minutes until the veg begins to soften. Be careful not to overcook the veg here though – especially if reheating portions later in the week.\n
+3) Stir through the reduced fat pesto so that everything is coated, heat for another minute or so, and then you’re ready to serve.\n
+4) Portion up into meal prep containers with cooked wholegrain quinoa if you want a serving of slow-releasing carbs too."/>
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:text="Low-Cal Lime and Chilli Turkey Burgers "
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="264dp"
+                android:src="@drawable/burgers" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="-125dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingredients"
+
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-70dp"
+                android:layout_marginTop="10dp"
+                android:text=" 1 tsp coconut oil\n 50g rolled oats\n ½ tsp sea salt and black pepper\n ½ red chilli\n 1 tsp garlic paste\n
+ ½ small red onion\n ½ lime (juice and zest)" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-130dp"
+                android:text="Method :"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="1)First, preheat oven to 180°C. Add the rolled oats to a food processor and process until finely blended.\n2)Add the onion, chilli, garlic, and lime juice and zest and process until coarsely chopped. Next, add the burger mince, salt and pepper and pulse to combine.\n3)Make 5 burger patties with your hands and place onto a lined baking tray.\n4)Bake for 15-20 minutes.\n5)Serve with vegetables of choice. Use lettuce wraps for a low-carb version."/>
+
+
+        </LinearLayout>
+       
+    </ScrollView>
+
+</LinearLayout>
